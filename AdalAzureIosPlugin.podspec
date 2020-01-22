@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |s|
     s.name = 'AdalAzureIosPlugin'
-    s.version = '0.0.2'
+    s.version = '0.0.3'
     s.summary = 'this is custome plugin'
     s.license = 'null'
     s.homepage = 'https://github.com/bhandaribhumin/azure-capacitor-ms-identity-mobile-apple-swift-objc.git'

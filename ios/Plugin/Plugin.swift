@@ -10,12 +10,12 @@ import MSAL
 public class azureAppDelegate: CAPPlugin {
     
     // Update the below to your client ID you received in the portal. The below is for running the demo only
-       let kClientID = "16546c77-4e85-450e-8cc8-0049c57be748"
+       let kClientID = "yourID"
        
        // Additional variables for Auth and Graph API
        let kGraphURI = "https://graph.microsoft.com/v1.0/me/"
        let kScopes: [String] = ["https://graph.microsoft.com/user.read"]
-       let kAuthority = "https://login.microsoftonline.com/2ffc2ede-4d44-4994-8082-487341fa43fb"
+       let kAuthority = "https://login.microsoftonline.com/common"
        
        var accessToken = String()
        var applicationContext : MSALPublicClientApplication?

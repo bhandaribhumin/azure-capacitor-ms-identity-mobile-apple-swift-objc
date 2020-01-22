@@ -1,0 +1,31 @@
+PODS:
+  - Capacitor (1.4.0):
+    - CapacitorCordova (= 1.4.0)
+  - CapacitorCordova (1.4.0)
+  - MSAL (1.0.6):
+    - MSAL/app-lib (= 1.0.6)
+  - MSAL/app-lib (1.0.6)
+
+DEPENDENCIES:
+  - "Capacitor (from `../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+  - MSAL
+
+SPEC REPOS:
+  trunk:
+    - MSAL
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../node_modules/@capacitor/ios"
+
+SPEC CHECKSUMS:
+  Capacitor: e548fe61e71fa160367a36387f54483647ca20f6
+  CapacitorCordova: 17c1ed13e5303aa5153fb405adb4196cc56b40d5
+  MSAL: 186dc0ddb3467340a801ba5d036ea469470d207f
+
+PODFILE CHECKSUM: 988bbe81073b7c86f773d49b03555405eae5a615
+
+COCOAPODS: 1.8.4
